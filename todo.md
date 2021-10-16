@@ -1,5 +1,5 @@
-1. built out routes with 1 or 2 of each
-2. make sure api works locally
+
+
 3. figure out the logic for:
 
 show endpoint:

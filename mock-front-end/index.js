@@ -1,2 +1,4 @@
 const form = document.getElementById("art-form")
-form.addEventListener("click", () => (console.log("clicked")))
+
+form.addEventListener("submit", Quiz.makeQuiz)
+

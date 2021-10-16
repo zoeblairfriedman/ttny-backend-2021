@@ -6,7 +6,7 @@
   <title>Document</title>
 </head>
 <body>
-<h1>Testing</h1>
+<h1>Form Basics</h1>
 
 <section>
   <form id="art-form">
@@ -16,6 +16,24 @@
       <input type="radio" id="family" name="family" value="true"></input>
       No
       <input type="radio" id="family" name="family" value="false"></input>
+    </div>
+    <div>
+      <label for="family">...how do you feel about musicals?</label>
+      Love them!
+      <input type="radio" id="musical" name="musical" value="true"></input>
+      ...Meh
+      <input type="radio" id="musical" name="musical" value="true"></input>
+      Detest them.
+      <input type="radio" id="musical" name="musical" value="false"></input>
+    </div>
+    <div>
+      <label for="family">How far are we willing to go?</label>
+      Down for a walk!
+      <input type="radio" id="distance" name="distance" value="walk"></input>
+      A short cab ride. 
+      <input type="radio" id="distance" name="distance" value="cab"></input>
+      I'll take the subway anywhere!
+      <input type="radio" id="distance" name="distance" value="subway"></input>
     </div>
     <div>
       <label for="price">What's the top of today's budget</label>
@@ -31,11 +49,22 @@
       <input type="radio" id="price" name="price" value="5"></input>
     </div>
     <div>
-      <label for="mood_id">What's the vibe?</label>
-      
+      <label for="mood">What's the vibe?</label>
+        Happy
+        <input type="checkbox" id="mood" name="mood" value="Happy"></input>
+        Moody
+        <input type="checkbox" id="mood" name="mood" value="Moody"></input>
+        Feel Something
+        <input type="checkbox" id="mood" name="mood" value="Feel Something"></input>
+        I want to laugh
+        <input type="checkbox" id="mood" name="mood" value="Comedy"></input>
+        Dance-y
+        <input type="checkbox" id="mood" name="mood" value="Dancey"></input>
+        Culture-y
+        <input type="checkbox" id="mood" name="mood" value="Culturey"></input>
     </div>
     <div>
-      <label for="category_id">What experience would you be down for today?</label>
+      <label for="category">What experience would you be down for today?</label>
       Theatre
       <input type="checkbox" id="category" name="category" value="Theatre"></input>
       Art Museum
@@ -48,10 +77,12 @@
       <input type="checkbox" id="category" name="category" value="Film"></input>
     </div>
 
+    <button type="submit">submit</button>
 
   </form>
 </section>
 
+  <script src="quiz.js"/></script>
   <script src="index.js"/></script>
 </body>
 </html>

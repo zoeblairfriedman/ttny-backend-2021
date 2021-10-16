@@ -2,7 +2,6 @@ class ArtsController < ApplicationController
 
   ## won't likely need this, but good just to see:
   def index
-
     @arts = Art.all
     render json: @arts
   end

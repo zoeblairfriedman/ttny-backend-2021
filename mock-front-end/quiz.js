@@ -1,8 +1,31 @@
+const getArtActivities = () => {
+  fetch("http://localhost:3000/arts")
+  // returns promise
+  .then(r => r.json())
+  //handles fetch promise/return JSON object
+  .then(arts=> {
+      arts.forEach(activity => {
+          const act = new Art(activity)
+      })
+  })
+}
+
+// function handleAnswers(answers){
+//   let possibilities = Art.all
+//   if (answers.family === true) {
+//     possibilities = possibilities.filter( event => event.family === true)
+//   }
+//   console.log(possibilities)
+// }
+
 class Quiz {
 
   /// then figure out how to add in the mood and categories
   static makeQuiz(e){
     e.preventDefault()
+    event.preventDefault()
+    
+    getArtActivities()
   
     let familyA = false;
     let musicalA = true;
@@ -38,31 +61,18 @@ class Quiz {
       }
     }
 
-  const quizBody = {
-      quiz: {
+  const quizAnswers = {
       family: familyA,
       musical: musicalA,
       distance: distanceA,
       price: priceA,
       category: categoryA,
       mood: moodA
-  }}
-
-fetch(`http://localhost:3000/arts`, {
-    method: "POST",
-    headers: {
-        "Content-Type": "application/json",
-        "Accept": "application/json"
-},
-body: JSON.stringify(quizBody)
-})
-.then(r => r.json())
-.then(d => console.log(d))
-
-  
-  // get request here with the body! 
-    
   }
 
+  console.log(Art.all)
+  console.log(quizAnswers)
+  
+  }
 }
 

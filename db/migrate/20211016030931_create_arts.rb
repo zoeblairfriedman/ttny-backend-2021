@@ -1,14 +1,15 @@
-class CreateShows < ActiveRecord::Migration[6.1]
+class CreateArts < ActiveRecord::Migration[6.1]
   def change
-    create_table :shows do |t|
+    create_table :arts do |t|
       t.string :name
       t.decimal :lat
       t.decimal :lng
       t.boolean :family
-      t.integer :price
       t.boolean :musical
-      t.integer :mood_id
+      t.integer :price
       t.string :url
+      t.integer :category_id
+      t.integer :mood_id
 
       t.timestamps
     end

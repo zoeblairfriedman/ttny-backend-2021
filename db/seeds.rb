@@ -47,3 +47,4 @@ Art.create(name: "Jersey Boys", family: true, musical: true, price: 5, category_
 Art.create(name: "The Office: A Musical Parody", family: false, musical: true, price: 3, category_id: 1, mood_id: 4, url: "https://theofficemusicalparody.com/")
 Art.create(name: "The Play That Goes Wrong", family: false, musical: false, price: 3, category_id: 1, mood_id: 4, url: "https://broadwaygoeswrong.com/")
 Art.create(name: "Stomp", family: true, musical: false, price: 3, category_id: 1, mood_id: 1, url: "https://stomponline.com/")
+Art.create(name: "Nitehawk Cinema", family: false, musical: false, price: 1, category_id: 5, mood_id: 3, url: "https://nitehawkcinema.com/")

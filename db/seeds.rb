@@ -6,7 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 categories = Category.create([{ name: "Theatre"}, { name: "Art" }, {name: "Music"}, {name: "Architecture & Design"}, {name: "Film"}])
-moods = Mood.create([{ name: 'Happy' }, { name: 'Moody' }, { name: 'Feel Something' }, { name: 'Comedy' }, { name: 'Dancey' }, { name: 'Culture-y' }])
+moods = Mood.create([{ name: 'Happy' }, { name: 'Moody' }, { name: 'Feel Something' }, { name: 'Comedy' }, { name: 'Dancey' }, { name: 'Culturey' }])
 
 Art.create(name: "Museum of the Moving Image", family: true, musical: false, price: 1, category_id: 5, mood_id: 1, url: "http://movingimage.us/")
 Art.create(name: "Smithsonian Cooper-Hewitt National Design Museum", family: false, musical: false, price: 0, category_id: 4, mood_id: 6, url: "https://www.cooperhewitt.org/")

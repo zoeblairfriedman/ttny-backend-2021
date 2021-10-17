@@ -14,9 +14,9 @@ The homepage is a stunning, interactive, snowglobe cityscape. Answer the short q
 ## How we built it
 The frontend is entirely CSS, HTML, and JavaScript! The ArtGlobe API was built with Ruby on Rails over a PostgreSQL database. 
 
-Live project: [link](https://amazing-darwin-9e60c0.netlify.app/)
-Backend Repo: [link](https://github.com/zoeblairfriedman/ttny-backend-2021)
-Frontend Repo: [link](https://github.com/mmeurer00/art-ball-frontend.git)
++ Live project: [link](https://amazing-darwin-9e60c0.netlify.app/)
++ Backend Repo: [link](https://github.com/zoeblairfriedman/ttny-backend-2021)
++ Frontend Repo: [link](https://github.com/mmeurer00/art-ball-frontend.git)
 
 ## Our team
 Danielle and Brooke teamed up first, having previously hacked together. First time hacker, Zoe, joined the party next and helped conceptualize. Danielle created stunning figma designs, while Brooke brought the incredible snow globe and additional design to life. First time hacker, Maxine, joined on day 2! Zoe built the backend API and made a first pass at the forms and algorithms, but Maxine swoooped in, saved the day and got the questionairre up and running! The quiz logic and styling were all still being tweaked down til the final hour! 
@@ -31,15 +31,15 @@ Zoe speaking for Maxine who is furiously coding away: Maxine came late to the gr
 
 ## Accomplishments that we're proud of
 
-"Im just so happy we finished" - Maxine
++ "Im just so happy we finished" - Maxine
 
-"Getting the button to sit over the snowglobe! It seems like the smallest thing, but it took me a while to figure out how to layer the divs so everything was where I needed it to be." - Brooke
++ "Getting the button to sit over the snowglobe! It seems like the smallest thing, but it took me a while to figure out how to layer the divs so everything was where I needed it to be." - Brooke
 
-"I am also very proud of my animations: the shaking globe, moving train and falling snow! It was really fun to animate the page." - Brooke
++ "I am also very proud of my animations: the shaking globe, moving train and falling snow! It was really fun to animate the page." - Brooke
 
-"This is going to sound crazy, but my proudest moment was submitting a pull request this morning that was a change to someone else's code! Working with other people in git scares the hell out of me and I finally feel like it's starting to make sense." - Zoe
++ "This is going to sound crazy, but my proudest moment was submitting a pull request this morning that was a change to someone else's code! Working with other people in git scares the hell out of me and I finally feel like it's starting to make sense." - Zoe
 
-"I'm proud that I was the 'Backend Engineer' on this project! I spend so much time in React these days, it was really cool to contribute an API that was a love letter to my city!" - Zoe
++ "I'm proud that I was the 'Backend Engineer' on this project! I spend so much time in React these days, it was really cool to contribute an API that was a love letter to my city!" - Zoe
 
 ## What we learned
 
